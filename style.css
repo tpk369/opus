@@ -1,8 +1,8 @@
 header {
   float: left;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
   padding: 0 0 0 0;
-  width: 88%;
+  width: 100%;
    border: 5px solid black;
     margin-bottom: 60px;
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
@@ -10,99 +10,73 @@ header {
 
 img.logo2
 {
-  float: right;
+  float: left;
 }
 
 .logo1{
   background-color: none;
-    border: none;
-}
-
-b
-{
-  color:#F08080;
-}
+    border: none;}
+b{
+  color:#F08080;}
 
 #logo{
-  font-size: 2em;
+  font-size: 2.6em;
   font-family: 'Times New Roman', serif;
   text-align: right;
   color:#ccffff;
-  line-height: 6em;
-    margin: 16px;
-}
+  line-height: 2em;
+    margin: 16px;}
 
-h{
-  font-size: 4em;
-}
+h{font-size: 2.5em;}
 
 p2 { 
-  font-size: 2em;
-}
+  font-size: 2em;}
 
 img{
-  float: left;
-}
+  float: left;}
 
-body 
-{
-background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
-} 
+body {
+background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);} 
 
-nav 
-{
+nav {
   text-align: right;
   padding: 10px 0;
-  margin: 20px 0 0;
-}
+  margin: 20px 0 0;}
 
 nav ul {
   list-style: none;
   margin: 0 10px;
-  padding: 0;
-}
+  padding: 0;}
 
-nav li 
-{
-  display: inline-block;
-}
+nav li {
+  display: inline-block;}
 
-nav a 
-{
+nav a {
   font-weight: 800;
-  padding: 15px 10px;
-}
+  padding: 15px 10px;}
 
-nav 
-{
+nav {
     background-color: none;
     float: right;
     font-size: 1.125em;
     margin-right: 5%;
     text-align: right;
-    width: 45%;
-  }
+    width: 45%;}
 
-logo 
-{
+logo {
     float: left;
     margin-left: 5%;
     text-align: left;
-    width: 45%;
-  }
+    width: 45%;}
 
-footer 
-{
+footer {
   font-size: 0.9em;
-  text-align: left;
+  text-align: ;
   clear: both;
   padding-top: 50px;
-  color: black;
-}
+  color: black;}
 
-.social-icon 
-{ 
+.social-icon {
   width: 20px;
   height: 20px;
-  margin: 0 5px;
-}
+  margin: 0 5px;}
