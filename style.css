@@ -13,16 +13,16 @@ img.logo2
   float: right;
 }
 
-
-
 .logo1{
   background-color: none;
     border: none;
 }
+
 b
 {
   color:#F08080;
 }
+
 #logo{
   font-size: 2em;
   font-family: 'Times New Roman', serif;
@@ -33,21 +33,24 @@ b
 }
 
 h{
- 
   font-size: 4em;
 }
+
 p2 { 
-  
   font-size: 2em;
 }
 
 img{
   float: left;
 }
-body {
+
+body 
+{
 background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
 } 
-nav {
+
+nav 
+{
   text-align: right;
   padding: 10px 0;
   margin: 20px 0 0;
@@ -59,16 +62,19 @@ nav ul {
   padding: 0;
 }
 
-nav li {
+nav li 
+{
   display: inline-block;
 }
 
-nav a {
+nav a 
+{
   font-weight: 800;
   padding: 15px 10px;
 }
 
-nav {
+nav 
+{
     background-color: none;
     float: right;
     font-size: 1.125em;
@@ -77,16 +83,16 @@ nav {
     width: 45%;
   }
 
-logo {
+logo 
+{
     float: left;
     margin-left: 5%;
     text-align: left;
     width: 45%;
   }
 
-
-
-footer {
+footer 
+{
   font-size: 0.9em;
   text-align: left;
   clear: both;
@@ -94,8 +100,8 @@ footer {
   color: black;
 }
 
-.social-icon {
- 
+.social-icon 
+{ 
   width: 20px;
   height: 20px;
   margin: 0 5px;
