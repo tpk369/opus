@@ -8,28 +8,37 @@ header {
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
 
-.logo{
-  text-align: center;
-  font-family: 'Times New Roman', serif;
+img.logo2
+{
+  float: right;
 }
+
+
 
 .logo1{
   background-color: none;
     border: none;
 }
-
-h1{
-  color:#FAEBD7;
- line-height: 1em;
-  margin: 1px;
-  font-size: 4em;
-  font-weight: bold;
+b
+{
+  color:#F08080;
 }
-h2 {
-  color: #FAEBD7;
+#logo{
   font-size: 2em;
-  margin: -5px 0 0;
-  font-weight: normal;
+  font-family: 'Times New Roman', serif;
+  text-align: right;
+  color:#ccffff;
+  line-height: 6em;
+    margin: 16px;
+}
+
+h{
+ 
+  font-size: 4em;
+}
+p2 { 
+  
+  font-size: 2em;
 }
 
 img{
@@ -37,8 +46,7 @@ img{
 }
 body {
 background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
-}
-
+} 
 nav {
   text-align: right;
   padding: 10px 0;
