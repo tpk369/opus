@@ -5,7 +5,7 @@ header {
   width: 100%;
    border: 3px solid black;
     margin-bottom: 60px;
-   background: linear-gradient(to bottom, #6699ff 0%, #99ccff 100%);
+   background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
 
 .logo{
@@ -14,18 +14,19 @@ header {
 }
 
 .logo1{
-  background-color: black;
-    border: 5px solid black;
+  background-color: none;
+    border: none;
 }
 
 h1{
-  
- line-height: 0.8em;
+  color:#FAEBD7;
+ line-height: 1em;
   margin: 1px;
   font-size: 4em;
   font-weight: bold;
 }
 h2 {
+  color: #FAEBD7;
   font-size: 2em;
   margin: -5px 0 0;
   font-weight: normal;
