@@ -8,18 +8,9 @@ header {
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
 
-/* nav link */
-nav a, nav a:visited {
-  color: #fff;
-}
 
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
-}
 
-@media screen and (min-width: 660px) {
-
+  
 img.logo2
 {
   float: left;
@@ -30,6 +21,7 @@ img.logo2
     border: none;}
 b{
   color:#F08080;}
+
 
 #logo{
   font-size: 2.6em;
@@ -44,11 +36,13 @@ h{font-size: 2.5em;}
 p2 { 
   font-size: 2em;}
 
+
 img{
   float: left;}
 
 body {
 background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);} 
+
 
 nav {
   text-align: right;
@@ -73,14 +67,39 @@ nav {
     font-size: 1.125em;
     margin-right: 5%;
     text-align: right;
-    width: 45%;}
+    width: 45%;
+  }
 
+  /* nav link */
+  nav a, nav a:visited {
+  color: #fff;
 }
+
+  /* selected nav link */
+  nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+
 logo {
     float: left;
     margin-left: 5%;
     text-align: left;
     width: 45%;}
+
+@media screen and (max-width: 750px){
+  logo {
+    float: center;
+    margin-left: 10%;
+    text-align: center;
+    width:35%;}
+  
+  h{font-size: 2em;}
+
+p{ 
+  font-size: 0.5em;
+  }
+}
 
 footer {
   font-size: 0.9em;
@@ -93,3 +112,49 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 5px;}
+
+
+#Responsive-logo{
+  display: hidden;
+  width: 48px;
+  height: 48px;
+  background-size: 37px;
+}
+
+@media screen and (max-width: 750px){
+  *{
+    margin: 0;
+  }
+  #Responsive-logo{
+    display: inline-block;
+    background: rgb(40,50,60);
+    border: 1px solid #999966;
+    border-radius: 5px;
+  }
+  
+  nav ul, nav:active ul{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+    background: #191929;
+    right: 20px;
+    top:30px;
+    border: 2px solid #F0F0F0;
+    border-radius: 8px 8px 8px 8px;
+    width: 43%;
+    opacity: 0.92; 
+  }
+  nav:hover ul{
+    display: block;
+  }
+  nav li{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+  nav li a{
+    text-align: center;
+    display: inline-block;
+  }
+}
