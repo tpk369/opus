@@ -8,6 +8,8 @@ header {
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
 
+@media screen and (min-width: 660px) {
+
 img.logo2
 {
   float: left;
@@ -63,6 +65,7 @@ nav {
     text-align: right;
     width: 45%;}
 
+}
 logo {
     float: left;
     margin-left: 5%;
