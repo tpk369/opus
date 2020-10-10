@@ -8,6 +8,16 @@ header {
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
 
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
 @media screen and (min-width: 660px) {
 
 img.logo2
