@@ -7,7 +7,7 @@ header {
     margin-bottom: 60px;
    background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
 }
-  
+ 
 img.logo2
 {
   float: left;
@@ -19,19 +19,40 @@ img.logo2
 b{
   color:#F08080;}
 
+
 #logo{
-  font-size: 2.6em;
+  
+    margin-left:10%;
   font-family: 'Times New Roman', serif;
   text-align: right;
   color:#ccffff;
   line-height: 2em;
     margin: 16px;}
 
-h{font-size: 2.5em;}
+h{font-size: 03em;}
 
-p2 { 
-  font-size: 2em;}
+p{ 
+  font-size: 02em;}
 
+@media screen and (max-width: 500px){
+  img.logo2
+{
+  width: 80px;
+  height: 50px
+  
+}
+
+.logo1{
+  width: 110px;
+  height: 50px;
+ }
+  
+  h{font-size: 3em;}
+
+p{ 
+  font-size:2em;
+  }
+}
 
 img{
   float: left;}
@@ -77,25 +98,6 @@ nav {
 }
 
 
-logo {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;}
-
-@media screen and (max-width: 750px){
-  logo {
-    float: center;
-    margin-left: 10%;
-    text-align: center;
-    width:35%;}
-  
-  h{font-size: 2em;}
-
-p{ 
-  font-size: 0.5em;
-  }
-}
 
 footer {
   font-size: 0.9em;
@@ -117,14 +119,14 @@ footer {
   background-size: 37px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width:400px){
   *{
-    margin: 0;
+    margin: 6%;
   }
   #Responsive-logo{
     display: inline-block;
-    background: rgb(40,50,60);
-    border: 1px solid #999966;
+    background: rgb(20,10,10);
+    border: 1px solid white;
     border-radius: 5px;
   }
   
@@ -132,13 +134,13 @@ footer {
     display: none;
     position: absolute;
     z-index: 1000;
-    padding: 10px;
-    background: #191929;
-    right: 20px;
-    top:30px;
-    border: 2px solid #F0F0F0;
-    border-radius: 8px 8px 8px 8px;
-    width: 43%;
+    padding:10px;
+    background: white;
+    right: 10px;
+    top:10px
+    border: 2px solid white;
+    border-radius:8px 8px 8px 8px;
+    width:43%;
     opacity: 0.92; 
   }
   nav:hover ul{
