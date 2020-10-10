@@ -14,17 +14,19 @@ header {
  
 img.logo2
 {
+padding: 10px;
   float: left;
 }
 
 .logo1{
+padding: 10px;
   background-color: none;
     border: none;}
 b{
   color:#F08080;}
 
 #logo{
-   margin-left: 100px;
+   margin-left: 150px;
   font-family: 'Aerospace';
   text-align: center;
   color: white;
