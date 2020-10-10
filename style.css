@@ -1,11 +1,15 @@
+html {
+	scroll-behavior: smooth;
+}
 header {
   float: left;
   margin: 0 0 10px 0;
   padding: 0 0 0 0;
   width: 100%;
-   border: 5px solid black;
+   border: 5px solid grey;
     margin-bottom: 60px;
-   background: url("https://ychef.files.bbci.co.uk/976x549/p06zpwn8.jpg");
+   background: url("https://www.southwalesargus.co.uk/resources/images/11198541/");
+  background-repeat: no-repeat;
 }
  
 img.logo2
@@ -19,18 +23,15 @@ img.logo2
 b{
   color:#F08080;}
 
-
 #logo{
-  
-    margin-left:10%;
-  font-family: 'Times New Roman', serif;
-  text-align: right;
-  color:#ccffff;
-  line-height: 2em;
-    margin: 16px;}
+   margin-left: 100px;
+  font-family: 'Aerospace';
+  text-align: center;
+  color: white;
+  line-height:8em;
+   }
 
-h{font-size: 03em;}
-
+h{font-size: 05em;}
 p{ 
   font-size: 02em;}
 
@@ -38,8 +39,7 @@ p{
   img.logo2
 {
   width: 80px;
-  height: 50px
-  
+  height: 50px 
 }
 
 .logo1{
@@ -47,112 +47,99 @@ p{
   height: 50px;
  }
   
-  h{font-size: 3em;}
+h{font-size: 3em;}
 
-p{ 
-  font-size:2em;
-  }
+p{ font-size:2em;}
+  
 }
 
-img{
-  float: left;}
+.nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to right, #ffffff 0%, #989898 100%);
+	font-family: calibri;
+	font-size: 1.3em;
+	position: sticky;
+	border-top: 8px;
+   border-top:5px solid grey;
+}
+
+.home {
+  
+	color: black;
+	padding: 20px;
+	transition: color .5s, background-color .5s;
+}
+
+.home:hover {
+	background-color:#111;
+	color: white;
+}
+
+.project {
+	color: black;
+	padding: 20px;
+	transition: color .5s, background-color .5s;
+}
+
+.about:hover {
+	background-color:#111;
+	color: white;
+}
+
+.project:hover {
+	background-color:#111;
+	color: white;
+}
+
+.about {
+	color: black;
+	padding: 20px;
+	transition: color .5s, background-color .5s;
+}
+
+.gallery {
+	color: black;
+	padding: 20px;
+	transition: color .5s, background-color .5s;
+}
+
+.gallery:hover {
+	background-color:#111;
+	color: white;
+}
 
 body {
-background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);} 
+background: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");}
 
-
-nav {
-  text-align: right;
-  padding: 10px 0;
-  margin: 20px 0 0;}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;}
-
-nav li {
-  display: inline-block;}
-
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;}
-
-nav {
-    background-color: none;
-    float: right;
-    font-size: 1.125em;
-    margin-right: 5%;
-    text-align: right;
-    width: 45%;
-  }
-
-  /* nav link */
-  nav a, nav a:visited {
-  color: #fff;
+#welcome{
+  float: center;
 }
-
-  /* selected nav link */
-  nav a.selected, nav a:hover {
-  color: #32673f;
+h1{
+  text-align: center;
+  font-size: 3em;
+  color: white;
 }
-
-
 
 footer {
-  font-size: 0.9em;
-  text-align: ;
+   margin: 0 0 2px 0;
+  padding: 0 0 0 0;
+  width: 100%;
+   border: 5px solid grey;
+    margin-bottom: 30px;
+  font-size: 0.5em;
+  text-align: center;
   clear: both;
-  padding-top: 50px;
-  color: black;}
+  padding-top: 0.5px;
+  color: white;
+}
 
 .social-icon {
+  background-color: white;
   width: 20px;
   height: 20px;
-  margin: 0 5px;}
-
-
-#Responsive-logo{
-  display: hidden;
-  width: 48px;
-  height: 48px;
-  background-size: 37px;
+  margin: 0 5px;
 }
 
-@media screen and (max-width:400px){
-  *{
-    margin: 6%;
-  }
-  #Responsive-logo{
-    display: inline-block;
-    background: rgb(20,10,10);
-    border: 1px solid white;
-    border-radius: 5px;
-  }
-  
-  nav ul, nav:active ul{
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    padding:10px;
-    background: white;
-    right: 10px;
-    top:10px
-    border: 2px solid white;
-    border-radius:8px 8px 8px 8px;
-    width:43%;
-    opacity: 0.92; 
-  }
-  nav:hover ul{
-    display: block;
-  }
-  nav li{
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-  }
-  nav li a{
-    text-align: center;
-    display: inline-block;
-  }
-}
